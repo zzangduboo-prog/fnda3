@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이마트 신촌점 K-Palette Zone 홍보 기획서</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts Inter & Noto Sans KR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        emart: {
+                            yellow: '#FFB800',
+                            darkYellow: '#E5A400',
+                            lightYellow: '#FFF7E0',
+                            black: '#111827',
+                            gray: '#374151',
+                            red: '#EF4444'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Noto Sans KR"', '"Plus Jakarta Sans"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .emart-gradient {
+            background: linear-gradient(135deg, #FFB800 0%, #FFA000 100%);
+        }
+        .emart-glass {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+        }
+        .dark .emart-glass {
+            background: rgba(17, 24, 39, 0.85);
+            backdrop-filter: blur(12px);
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        .dark ::-webkit-scrollbar-track {
+            background: #1f2937;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #FFB800;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #E5A400;
+        }
+        /* Aspect ratio utility for 9:16 shorts */
+        .aspect-shorts {
+            aspect-ratio: 9 / 16;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 font-sans transition-colors duration-300">
+
+    <!-- TOP NAVIGATION BAR -->
+    <header class="sticky top-0 z-50 emart-glass border-b border-slate-200 dark:border-slate-800 transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <span class="bg-emart-yellow text-slate-900 font-black px-2.5 py-1 rounded-lg text-lg tracking-wider">e-mart</span>
+                <span class="font-bold text-slate-900 dark:text-white text-base sm:text-lg">신촌점 B3 <span class="text-amber-500 font-extrabold">K-Palette Zone</span></span>
+            </div>
+
+            <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
+                <a href="#overview" class="hover:text-amber-500 transition-colors">기획배경</a>
+                <a href="#solutions" class="hover:text-amber-500 transition-colors">3대 솔루션</a>
+                <a href="#shorts-player" class="text-amber-600 dark:text-amber-400 font-bold hover:text-amber-500 flex items-center space-x-1">
+                    <i class="fa-solid fa-play text-xs"></i><span>9:16 홍보 쇼츠</span>
+                </a>
+                <a href="#cardnews" class="hover:text-amber-500 transition-colors">카드뉴스</a>
+                <a href="#space" class="hover:text-amber-500 transition-colors">공간경험</a>
+                <a href="#channels" class="hover:text-amber-500 transition-colors">채널전략</a>
+                <a href="#checklist" class="hover:text-amber-500 transition-colors">체크리스트</a>
+                <a href="#kpi" class="hover:text-amber-500 transition-colors">KPI&R&R</a>
+            </nav>
+
+            <div class="flex items-center space-x-3">
+                <button id="themeToggleBtn" class="p-2 text-slate-600 dark:text-slate-300 hover:text-amber-500 dark:hover:text-amber-400 transition-colors rounded-full bg-slate-100 dark:bg-slate-800" title="다크/라이트 모드 전환">
+                    <i class="fa-solid fa-moon dark:hidden"></i>
+                    <i class="fa-solid fa-sun hidden dark:block"></i>
+                </button>
+                <a href="#shorts-player" class="hidden sm:inline-flex items-center px-4 py-2 text-xs font-bold rounded-full bg-emart-yellow text-slate-900 hover:bg-emart-darkYellow transition-all shadow-md">
+                    <i class="fa-solid fa-film mr-1.5"></i> 영상 보러가기
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="overview" class="relative overflow-hidden bg-gradient-to-b from-amber-500/10 via-slate-50 to-slate-50 dark:from-amber-900/20 dark:via-slate-900 dark:to-slate-900 py-12 md:py-20 border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-800 dark:text-amber-300 text-xs font-bold">
+                        <span class="w-2 h-2 rounded-full bg-amber-500 animate-ping"></span>
+                        <span>외국인 관광객 맞춤형 공간경험 옴니채널 캠페인</span>
+                    </div>
+
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 dark:text-white leading-tight">
+                        "한국 여행 와서 뭐 살지 고민돼?"<br>
+                        <span class="text-amber-500 underline decoration-amber-300 decoration-wavy">리얼 픽, 이마트 신촌 K-Palette Zone!</span>
+                    </h1>
+
+                    <p class="text-slate-600 dark:text-slate-300 text-base sm:text-lg leading-relaxed">
+                        신촌역 2호선 지하 직결로 공항 이동 전 필수 방문 코스! 언어 장벽 없는 NFC 다국어 번역과 앱 설치 없는 AR 길안내, 그리고 SNS 빅데이터 기반 현지인 검증 핫템을 한자리에서 만나보세요.
+                    </p>
+
+                    <!-- Key highlights badges -->
+                    <div class="grid grid-cols-3 gap-3 pt-2">
+                        <div class="p-3 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                            <i class="fa-solid fa-route text-amber-500 text-xl mb-1"></i>
+                            <div class="text-xs font-bold">AR 길안내</div>
+                            <div class="text-[10px] text-slate-500 dark:text-slate-400">앱 설치 불필요</div>
+                        </div>
+                        <div class="p-3 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                            <i class="fa-solid fa-fire text-red-500 text-xl mb-1"></i>
+                            <div class="text-xs font-bold">SNS 핫템 Top 100</div>
+                            <div class="text-[10px] text-slate-500 dark:text-slate-400">빅데이터 큐레이션</div>
+                        </div>
+                        <div class="p-3 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 text-center">
+                            <i class="fa-solid fa-mobile-screen text-blue-500 text-xl mb-1"></i>
+                            <div class="text-xs font-bold">1초 NFC 다국어</div>
+                            <div class="text-[10px] text-slate-500 dark:text-slate-400">맵기/성분/15초 레시피</div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-3 pt-4">
+                        <a href="#shorts-player" class="px-6 py-3 bg-emart-yellow hover:bg-emart-darkYellow text-slate-900 font-bold rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center space-x-2">
+                            <i class="fa-solid fa-circle-play text-lg"></i>
+                            <span>9:16 숏폼 영상 시청하기</span>
+                        </a>
+                        <a href="#cardnews" class="px-6 py-3 bg-slate-200 dark:bg-slate-800 hover:bg-slate-300 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold rounded-xl transition-all flex items-center space-x-2">
+                            <i class="fa-solid fa-images text-lg"></i>
+                            <span>카드뉴스 6종 가이드</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Banner Visual Card -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-full max-w-sm rounded-2xl overflow-hidden shadow-2xl bg-white dark:bg-slate-800 border-4 border-emart-yellow">
+                        <div class="bg-emart-yellow p-4 text-slate-900 font-black text-center text-sm flex justify-between items-center">
+                            <span>e-mart 신촌점 B1/B3 Level</span>
+                            <span class="bg-slate-900 text-white text-[10px] px-2 py-0.5 rounded-full">K-Trend Zone</span>
+                        </div>
+                        <div class="p-6 text-center space-y-4">
+                            <div class="w-20 h-20 bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded-full flex items-center justify-center mx-auto text-3xl shadow-inner">
+                                <i class="fa-solid fa-store"></i>
+                            </div>
+                            <h3 class="font-extrabold text-xl text-slate-900 dark:text-white">이마트 신촌점에서 한국인의<br><span class="text-amber-500">REAL PICK</span>을 만나보세요</h3>
+                            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                                📍 서울특별시 마포구 신촌로 B3 K-Palette Zone<br>
+                                🚇 지하철 2호선 신촌역 지하 연결 통로 직결
+                            </p>
+                            <div class="pt-2 flex justify-center space-x-2 text-xs font-semibold text-slate-700 dark:text-slate-300">
+                                <span class="bg-slate-100 dark:bg-slate-700 px-2.5 py-1 rounded-md">#KPaletteZone</span>
+                                <span class="bg-slate-100 dark:bg-slate-700 px-2.5 py-1 rounded-md">#EmartSinchon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PAIN POINTS & SOLUTIONS MAPPING SECTION -->
+    <section id="solutions" class="py-16 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-amber-500 mb-2">Pain Point & Solution</h2>
+                <h3 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white">외국인 관광객 3대 페인포인트 & 혁신 솔루션</h3>
+                <p class="mt-3 text-slate-600 dark:text-slate-400 text-sm">복잡한 대형마트 쇼핑의 어려움을 K-Palette Zone만의 3대 디지털 혁신 기술로 명쾌하게 해결합니다.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- PAIN 1 & SOL 1 -->
+                <div class="bg-slate-50 dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 flex flex-col justify-between hover:shadow-lg transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-black bg-red-100 text-red-600 px-2.5 py-1 rounded-md dark:bg-red-900/40 dark:text-red-300">PAIN 01</span>
+                            <span class="text-2xl">😰</span>
+                        </div>
+                        <h4 class="font-bold text-base text-slate-900 dark:text-white mb-2">"매장 내 길을 잃는다" (내비게이션 부재)</h4>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 mb-6">넓은 대형마트 매장 내에서 사고 싶은 품목의 위치를 찾기 어려워 헤매는 상황 발생.</p>
+                        
+                        <div class="border-t border-dashed border-slate-300 dark:border-slate-600 pt-4">
+                            <div class="flex items-center space-x-2 text-amber-600 dark:text-amber-400 font-extrabold text-sm mb-2">
+                                <i class="fa-solid fa-compass"></i>
+                                <span>SOLUTION 01: AR 길찾기</span>
+                            </div>
+                            <p class="text-xs font-medium text-slate-700 dark:text-slate-300 leading-relaxed">
+                                <strong>직관적 바닥 유도선 & 스마트폰 AR 길찾기</strong><br>
+                                이마트24 Yellow 유도선과 웹 기반 AR 내비게이션으로 앱 설치 없이 지하 3층 매장까지 논스톱 안내!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-3 bg-amber-500/10 rounded-xl p-3 text-center">
+                        <span class="text-xs font-bold text-amber-700 dark:text-amber-300">"앱 설치 필요 없이 폰만 대면 완성!"</span>
+                    </div>
+                </div>
+
+                <!-- PAIN 2 & SOL 2 -->
+                <div class="bg-slate-50 dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 flex flex-col justify-between hover:shadow-lg transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-black bg-red-100 text-red-600 px-2.5 py-1 rounded-md dark:bg-red-900/40 dark:text-red-300">PAIN 02</span>
+                            <span class="text-2xl">😤</span>
+                        </div>
+                        <h4 class="font-bold text-base text-slate-900 dark:text-white mb-2">"무엇을 살지 모르겠다" (정보 격차)</h4>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 mb-6">획일적인 기념품 대신 한국인이 실제 소비하는 진짜 트렌드 및 SNS 핫템 정보 부족.</p>
+                        
+                        <div class="border-t border-dashed border-slate-300 dark:border-slate-600 pt-4">
+                            <div class="flex items-center space-x-2 text-amber-600 dark:text-amber-400 font-extrabold text-sm mb-2">
+                                <i class="fa-solid fa-fire"></i>
+                                <span>SOLUTION 02: SNS 핫템 Top 100</span>
+                            </div>
+                            <p class="text-xs font-medium text-slate-700 dark:text-slate-300 leading-relaxed">
+                                <strong>실시간 Top 100 큐레이션 & K-라면 꿀조합</strong><br>
+                                틱톡·샤오홍슈 빅데이터 기반 '불닭 + 짜파게티' 등 실패 없는 K-라면 꿀조합 세트를 한 매대에서 바로 구매!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-3 bg-amber-500/10 rounded-xl p-3 text-center">
+                        <span class="text-xs font-bold text-amber-700 dark:text-amber-300">"한국인만 아는 검증된 리얼 꿀조합!"</span>
+                    </div>
+                </div>
+
+                <!-- PAIN 3 & SOL 3 -->
+                <div class="bg-slate-50 dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 flex flex-col justify-between hover:shadow-lg transition-all">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-black bg-red-100 text-red-600 px-2.5 py-1 rounded-md dark:bg-red-900/40 dark:text-red-300">PAIN 03</span>
+                            <span class="text-2xl">😵</span>
+                        </div>
+                        <h4 class="font-bold text-base text-slate-900 dark:text-white mb-2">"한국어를 못 읽는다" (언어 장벽)</h4>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 mb-6">한국어 표기 중심 패키지로 맵기 단계, 알레르기/할랄/비건 성분 확인이 불가능.</p>
+                        
+                        <div class="border-t border-dashed border-slate-300 dark:border-slate-600 pt-4">
+                            <div class="flex items-center space-x-2 text-amber-600 dark:text-amber-400 font-extrabold text-sm mb-2">
+                                <i class="fa-solid fa-nfc-symbol"></i>
+                                <span>SOLUTION 03: NFC 원터치 정보</span>
+                            </div>
+                            <p class="text-xs font-medium text-slate-700 dark:text-slate-300 leading-relaxed">
+                                <strong>1초 NFC 다국어 번역 & 15초 숏폼 레시피</strong><br>
+                                매대에 폰을 대면 1초 만에 맵기, 성분, 비건/할랄 정보 및 맛있게 먹는 조리법이 모국어로 자동 출력!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-3 bg-amber-500/10 rounded-xl p-3 text-center">
+                        <span class="text-xs font-bold text-amber-700 dark:text-amber-300">"번역기 앱도 필요 없는 1초 원터치!"</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9:16 SHORTS VIDEO PLAYER SECTION -->
+    <section id="shorts-player" class="py-16 bg-slate-900 text-white relative overflow-hidden">
+        <!-- Ambient background glows -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-amber-500/15 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <span class="inline-block px-3 py-1 bg-amber-500/20 text-amber-400 border border-amber-500/30 rounded-full text-xs font-bold mb-3">
+                    <i class="fa-solid fa-video mr-1"></i> 9:16 Vertical Video Experience
+                </span>
+                <h2 class="text-2xl sm:text-4xl font-black text-white">이마트 신촌점 K-Palette Zone 홍보 쇼츠</h2>
+                <p class="text-slate-400 text-xs sm:text-sm mt-2">
+                    TikTok · Shorts · Reels 전용 15~30초 현장 반응 숏폼 콘텐츠를 직관적인 모바일 프레임으로 확인해보세요.
+                </p>
+                <div class="mt-3 inline-block px-3 py-1 rounded bg-slate-800 text-amber-300 text-xs font-mono border border-slate-700">
+                    <i class="fa-solid fa-file-video mr-1.5 text-amber-400"></i>첨부한_두_이미지를_참고하여_이마트_신촌점_‘K_Pa_내보내기.mp4
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                
+                <!-- Video Container Column (9:16 Aspect Ratio Phone Frame) -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-full max-w-[320px] bg-black rounded-[40px] p-3 shadow-2xl border-4 border-slate-700 ring-1 ring-slate-500/30">
+                        <!-- Phone Speaker Notch -->
+                        <div class="absolute top-5 left-1/2 -translate-x-1/2 w-28 h-4 bg-slate-900 rounded-full z-30 flex items-center justify-center space-x-2">
+                            <div class="w-10 h-1.5 bg-slate-800 rounded-full"></div>
+                            <div class="w-2 h-2 bg-slate-800 rounded-full"></div>
+                        </div>
+
+                        <!-- 9:16 Video Canvas / Screen Frame -->
+                        <div class="relative w-full aspect-shorts bg-slate-950 rounded-[32px] overflow-hidden group flex flex-col justify-between">
+                            
+                            <!-- Real HTML5 Video or Simulated Canvas Graphic fallback -->
+                            <video id="shortsVideo" class="absolute inset-0 w-full h-full object-cover hidden" loop playsinline muted>
+                                <source src="첨부한_두_이미지를_참고하여_이마트_신촌점_‘K_Pa_내보내기.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+
+                            <!-- Simulated Interactive Video Screen (Fallback Visual when MP4 is loading/unavailable) -->
+                            <div id="videoSimulatedScreen" class="absolute inset-0 bg-gradient-to-b from-slate-900/80 via-slate-800/90 to-slate-950 flex flex-col justify-between p-4 z-10 transition-all duration-300">
+                                
+                                <!-- Top Status / Branding overlay -->
+                                <div class="pt-6 flex justify-between items-center text-xs">
+                                    <span class="bg-emart-yellow text-slate-900 font-extrabold px-2 py-0.5 rounded text-[10px]">e-mart K-Palette</span>
+                                    <span class="text-slate-300 text-[10px] flex items-center space-x-1">
+                                        <i class="fa-solid fa-eye text-amber-400"></i>
+                                        <span id="viewCount">12.4K</span>
+                                    </span>
+                                </div>
+
+                                <!-- Center Video Motion Simulation / Graphic -->
+                                <div class="my-auto text-center space-y-3 px-2">
+                                    <div class="relative w-24 h-24 mx-auto flex items-center justify-center">
+                                        <div id="pulseCircle" class="absolute inset-0 rounded-full bg-amber-500/20 animate-ping"></div>
+                                        <button id="playBtn" class="relative z-20 w-16 h-16 bg-emart-yellow hover:bg-amber-400 text-slate-900 rounded-full flex items-center justify-center text-2xl shadow-xl transform active:scale-95 transition-all">
+                                            <i class="fa-solid fa-play ml-1"></i>
+                                        </button>
+                                    </div>
+                                    
+                                    <div class="bg-black/60 backdrop-blur-md p-3 rounded-xl border border-white/10 text-left space-y-1">
+                                        <span class="text-[10px] text-amber-400 font-bold">🔥 첫 3초 훅 (Hook)</span>
+                                        <h4 class="text-xs font-black text-white">"한국 마트 오면 멘붕 오는 사람?🙋‍♀️"</h4>
+                                        <p class="text-[10px] text-slate-300 leading-tight">이마트 신촌점 B3 K-Palette Zone에서 1초 만에 해결!</p>
+                                    </div>
+
+                                    <!-- Subtitle Preview Banner -->
+                                    <div id="subtitleBox" class="bg-slate-900/90 px-2 py-1.5 rounded text-[11px] font-bold text-amber-300 border border-amber-500/30 text-center">
+                                        🇰🇷 "한국인 찐추천 SNS 핫템 Top 100!"
+                                    </div>
+                                </div>
+
+                                <!-- Bottom Info & Social Overlay -->
+                                <div class="space-y-2 text-left">
+                                    <div class="flex items-center space-x-2">
+                                        <div class="w-7 h-7 rounded-full bg-emart-yellow text-slate-900 font-black text-xs flex items-center justify-center">
+                                            em
+                                        </div>
+                                        <span class="text-xs font-bold text-white">@emart_sinchon</span>
+                                        <span class="bg-red-500 text-white text-[9px] px-1.5 py-0.5 rounded font-bold">팔로우</span>
+                                    </div>
+                                    <p class="text-[10px] text-slate-300 line-clamp-2">
+                                        신촌역 2호선 직결! 언어 장벽 없는 NFC 정보와 AR 길안내까지 💛 #KPaletteZone #이마트신촌 #SeoulTrip
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Floating Social Sidebar (Right) -->
+                            <div class="absolute right-3 bottom-16 z-20 flex flex-col items-center space-y-4 text-white">
+                                <button id="likeBtn" class="flex flex-col items-center space-y-0.5 group">
+                                    <div class="w-9 h-9 rounded-full bg-black/40 backdrop-blur flex items-center justify-center group-hover:scale-110 transition-all">
+                                        <i class="fa-solid fa-heart text-red-500 text-sm"></i>
+                                    </div>
+                                    <span id="likeCount" class="text-[9px] font-bold">3.8K</span>
+                                </button>
+                                <button class="flex flex-col items-center space-y-0.5 group">
+                                    <div class="w-9 h-9 rounded-full bg-black/40 backdrop-blur flex items-center justify-center group-hover:scale-110 transition-all">
+                                        <i class="fa-solid fa-comment text-white text-sm"></i>
+                                    </div>
+                                    <span class="text-[9px] font-bold">248</span>
+                                </button>
+                                <button class="flex flex-col items-center space-y-0.5 group">
+                                    <div class="w-9 h-9 rounded-full bg-black/40 backdrop-blur flex items-center justify-center group-hover:scale-110 transition-all">
+                                        <i class="fa-solid fa-share text-white text-sm"></i>
+                                    </div>
+                                    <span class="text-[9px] font-bold">공유</span>
+                                </button>
+                            </div>
+
+                            <!-- Bottom Audio Bar -->
+                            <div class="relative z-20 bg-slate-950 p-2 text-[10px] flex items-center justify-between border-t border-slate-800 text-slate-400">
+                                <div class="flex items-center space-x-1.5 overflow-hidden">
+                                    <i class="fa-solid fa-music text-amber-400 text-xs animate-spin"></i>
+                                    <span class="truncate">Original Sound - Emart Sinchon K-Palette</span>
+                                </div>
+                                <button id="soundToggleBtn" class="text-slate-300 hover:text-white p-1">
+                                    <i class="fa-solid fa-volume-high"></i>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Campaign Strategy & Controls Column -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="bg-slate-800/80 rounded-2xl p-6 border border-slate-700 space-y-4">
+                        <div class="flex justify-between items-center border-b border-slate-700 pb-3">
+                            <h3 class="font-bold text-lg text-amber-400 flex items-center space-x-2">
+                                <i class="fa-solid fa-sliders"></i>
+                                <span>쇼츠 영상 시뮬레이터 & 채널 실행 가이드</span>
+                            </h3>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">TikTok / Shorts / Reels</span>
+                        </div>
+
+                        <!-- Subtitle Language Switcher -->
+                        <div>
+                            <label class="block text-xs font-bold text-slate-300 mb-2">
+                                <i class="fa-solid fa-language text-amber-400 mr-1"></i> 자막 언어 전환 (Multilingual Captions)
+                            </label>
+                            <div class="grid grid-cols-4 gap-2">
+                                <button class="lang-btn bg-amber-500 text-slate-900 font-bold py-1.5 px-2 rounded text-xs transition-all" data-lang="kor">
+                                    🇰🇷 한국어
+                                </button>
+                                <button class="lang-btn bg-slate-700 text-slate-300 hover:bg-slate-600 font-bold py-1.5 px-2 rounded text-xs transition-all" data-lang="eng">
+                                    🇺🇸 English
+                                </button>
+                                <button class="lang-btn bg-slate-700 text-slate-300 hover:bg-slate-600 font-bold py-1.5 px-2 rounded text-xs transition-all" data-lang="chn">
+                                    🇨🇳 中文
+                                </button>
+                                <button class="lang-btn bg-slate-700 text-slate-300 hover:bg-slate-600 font-bold py-1.5 px-2 rounded text-xs transition-all" data-lang="jpn">
+                                    🇯🇵 日本語
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Video Scene Breakdown Timeline -->
+                        <div class="space-y-2 pt-2">
+                            <label class="block text-xs font-bold text-slate-300">
+                                <i class="fa-solid fa-film text-amber-400 mr-1"></i> 영상 타임라인 & 3초 훅 구성
+                            </label>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs">
+                                <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-700">
+                                    <div class="text-amber-400 font-bold mb-1">00:00~00:03 (훅)</div>
+                                    <p class="text-slate-300 text-[11px]">"한국 마트만 오면 멘붕?" 현장 당황 장면 + 상단 대형 자막</p>
+                                </div>
+                                <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-700">
+                                    <div class="text-amber-400 font-bold mb-1">00:03~00:15 (솔루션)</div>
+                                    <p class="text-slate-300 text-[11px]">AR 길찾기 시연 & 매대 NFC 1초 모국어 태깅 장면</p>
+                                </div>
+                                <div class="bg-slate-900 p-2.5 rounded-lg border border-slate-700">
+                                    <div class="text-amber-400 font-bold mb-1">00:15~00:30 (구매)</div>
+                                    <p class="text-slate-300 text-[11px]">불닭+짜파게티 꿀조합 세트 픽업 & B3 위치 안내</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Technical Specs & File info -->
+                        <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-700/80 text-xs space-y-2">
+                            <div class="font-bold text-slate-200">🎬 콘텐츠 제작 및 배포 규격:</div>
+                            <ul class="list-disc list-inside text-slate-400 space-y-1">
+                                <li><strong>해상도:</strong> 1080 x 1920 (9:16 Vertical Vertical Video)</li>
+                                <li><strong>파일명:</strong> <code class="text-amber-300">첨부한_두_이미지를_참고하여_이마트_신촌점_‘K_Pa_내보내기.mp4</code></li>
+                                <li><strong>핵심 해시태그:</strong> #KPaletteZone #EmartSinchon #KoreaSupermarket #SeoulTravel</li>
+                                <li><strong>글로벌 SEO 타깃 키워드:</strong> "Seoul Supermarket AR navigation guide", "Must-buy Korean mart items"</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- INSTAGRAM CARD NEWS GALLERY (1-6) SECTION -->
+    <section id="cardnews" class="py-16 bg-slate-100 dark:bg-slate-900/50 border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-amber-500">Instagram Carousel Series</span>
+                    <h2 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white mt-1">
+                        인스타그램 공식 카드뉴스 (1)~(6) 집행 플랜
+                    </h2>
+                    <p class="text-slate-600 dark:text-slate-400 text-xs sm:text-sm mt-1">
+                        스토리텔링 순서에 맞춘 6종 카드뉴스로 외국인 방문객의 관심 유도부터 방문 직결까지 단계별로 유도합니다.
+                    </p>
+                </div>
+                <div class="mt-4 md:mt-0 flex space-x-2">
+                    <button id="prevCardBtn" class="p-2.5 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 hover:bg-amber-500 hover:text-white transition-all">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button id="nextCardBtn" class="p-2.5 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 hover:bg-amber-500 hover:text-white transition-all">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Card News Grid / Carousel -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- CARD 01 -->
+                <div class="card-item bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-md border border-slate-200 dark:border-slate-700 flex flex-col justify-between hover:shadow-xl transition-all">
+                    <div>
+                        <div class="bg-amber-500 text-slate-900 p-3 font-bold text-xs flex justify-between items-center">
+                            <span>(1) 공감 훅</span>
+                            <span class="bg-slate-900 text-white px-2 py-0.5 rounded text-[10px]">Card 01</span>
+                        </div>
+                        <div class="p-5 space-y-3">
+                            <div class="w-full h-44 bg-amber-100 dark:bg-amber-900/30 rounded-xl flex flex-col items-center justify-center p-4 text-center border border-amber-200 dark:border-amber-800">
+                                <span class="text-xs font-bold text-amber-800 dark:text-amber-300 mb-1">K-PALETTE ZONE</span>
+                                <h4 class="font-extrabold text-lg text-slate-900 dark:text-white">"한국 여행 와서<br>뭐 살지 고민돼?"</h4>
+                                <p class="text-xs text-amber-700 dark:text-amber-400 mt-2">진짜 한국인이 사랑하는 리얼 픽!</p>
+                            </div>
+                            <h5 class="font-bold text-sm text-slate-900 dark:text-white">한국 여행 쇼핑 고민 공감</h5>
+                            <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+                                호기심 자극 질문으로 외국인 타깃의 시선을 끌고 K-Palette Zone 브랜드 브랜딩 인지도 각인.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-slate-50 dark:bg-slate-700/50 border-t border-slate-100 dark:border-slate-700 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 dark:text-slate-400">포맷: Feed Image 1:1</span>
+                        <button class="open-modal-btn text-amber-600 dark:text-amber-400 font-bold hover:underline" data-card="1">상세보기</button>
+                    </div>
+                </div>
+
+                <!-- CARD 02 -->
+                <div class="card-item bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-md border border-slate-200 dark:border-slate-700 flex flex-col justify-between hover:shadow-xl transition-all">
+                    <div>
+                        <div class="bg-amber-500 text-slate-900 p-3 font-bold text-xs flex justify-between items-center">
+                            <span>(2) 문제 제시</span>
+                            <span class="bg-slate-900 text-white px-2 py-0.5 rounded text-[10px]">Card 02</span>
+                        </div>
+                        <div class="p-5 space-y-3">
+                            <div class="w-full h-44 bg-red-50 dark:bg-red-950/30 rounded-xl flex flex-col items-center justify-center p-4 text-center border border-red-200 dark:border-red-800">
+                                <span class="text-xs font-bold text-red-600 dark:text-red-400 mb-1">PAIN POINTS</span>
+                                <h4 class="font-extrabold text-base text-slate-900 dark:text-white">한국 마트만 오면<br>멘붕 오는 사람?🙋‍♀️</h4>
+                                <p class="text-[11px] text-red-700 dark:text-red-300 mt-2">길잃음 / 답답한 성분표 / 진짜핫템 부재</p>
+                            </div>
+                            <h5 class="font-bold text-sm text-slate-900 dark:text-white">3대 쇼핑 멘붕 상황 도출</h5>
+                            <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+                                넓은 매장, 한국어 전용 성분표, 광고성 품목 대신 '진짜 핫템'을 찾지 못하는 실제 여행객 페인포인트 소구.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-slate-50 dark:bg-slate-700/50 border-t border-slate-100 dark:border-slate-700 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 dark:text-slate-400">포맷: Feed Image 1:1</span>
+                        <button class="open-modal-btn text-amber-600 dark:text-amber-400 font-bold hover:underline" data-card="2">상세보기</button>
+                    </div>
+                </div>
+
+                <!-- CARD 03 -->
+                <div class="card-item bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-md border border-slate-200 dark:border-slate-700 flex flex-col justify-between hover:shadow-xl transition-all">
+                    <div>
+                        <div class="bg-amber-500 text-slate-900 p-3 font-bold text-xs flex justify-between items-center">
+                            <span>(3) 솔루션 1</span>
+                            <span class="bg-slate-900 text-white px-2 py-0.5 rounded text-[10px]">Card 03</span>
+                        </div>
+                        <div class="p-5 space-y-3">
+                            <div class="w-full h-44 bg-blue-50 dark:bg-blue-950/30 rounded-xl flex flex-col items-center justify-center p-4 text-center border border-blue-200 dark:border-blue-800">
+                                <i class="fa-solid fa-map-location-dot text-2xl text-blue-500 mb-1"></i>
+                                <h4 class="font-extrabold text-base text-slate-900 dark:text-white">직관적 바닥 안내선 &<br>AR 길찾기</h4>
+                                <p class="text-[11px] text-blue-700 dark:text-blue-300 mt-2">이마트24 Yellow 유도선 / 웹 기반 AR</p>
+                            </div>
+                            <h5 class="font-bold text-sm text-slate-900 dark:text-white">바닥 안내선 & AR 내비게이션</h5>
+                            <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+                                별도 스마트폰 앱 설치 없이 카메라 스캔만으로 지하 3층 매장까지 명확하게 길을 안내하는 솔루션.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-slate-50 dark:bg-slate-700/50 border-t border-slate-100 dark:border-slate-700 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 dark:text-slate-400">포맷: Carousel Slide</span>
+                        <button class="open-modal-btn text-amber-600 dark:text-amber-400 font-bold hover:underline" data-card="3">상세보기</button>
+                    </div>
+                </div>
+
+                <!-- CARD 04 -->
+                <div class="card-item bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-md border border-slate-200 dark:border-slate-700 flex flex-col justify-between hover:shadow-xl transition-all">
+                    <div>
+                        <div class="bg-amber-500 text-slate-900 p-3 font-bold text-xs flex justify-between items-center">
+                            <span>(4) 솔루션 2</span>
+                            <span class="bg-slate-900 text-white px-2 py-0.5 rounded text-[10px]">Card 04</span>
+                        </div>
+                        <div class="p-5 space-y-3">
+                            <div class="w-full h-44 bg-amber-50 dark:bg-amber-950/30 rounded-xl flex flex-col items-center justify-center p-4 text-center border border-amber-200 dark:border-amber-800">
+                                <i class="fa-solid fa-fire text-2xl text-amber-500 mb-1"></i>
+                                <h4 class="font-extrabold text-base text-slate-900 dark:text-white">'한국인 찐 추천!'<br>SNS 핫템 & 꿀조합</h4>
+                                <p class="text-[11px] text-amber-700 dark:text-amber-300 mt-2">불닭 + 짜파게티 K-라면 세트</p>
+                            </div>
+                            <h5 class="font-bold text-sm text-slate-900 dark:text-white">SNS 핫템 & K-라면 꿀조합</h5>
+                            <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+                                샤오홍슈/틱톡 빅데이터 기반 실시간 Top 100 인기 핫템 큐레이션 및 실패 없는 패키지 구매 구성.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-slate-50 dark:bg-slate-700/50 border-t border-slate-100 dark:border-slate-700 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 dark:text-slate-400">포맷: Carousel Slide</span>
+                        <button class="open-modal-btn text-amber-600 dark:text-amber-400 font-bold hover:underline" data-card="4">상세보기</button>
+                    </div>
+                </div>
+
+                <!-- CARD 05 -->
+                <div class="card-item bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-md border border-slate-200 dark:border-slate-700 flex flex-col justify-between hover:shadow-xl transition-all">
+                    <div>
+                        <div class="bg-amber-500 text-slate-900 p-3 font-bold text-xs flex justify-between items-center">
+                            <span>(5) 솔루션 3</span>
+                            <span class="bg-slate-900 text-white px-2 py-0.5 rounded text-[10px]">Card 05</span>
+                        </div>
+                        <div class="p-5 space-y-3">
+                            <div class="w-full h-44 bg-emerald-50 dark:bg-emerald-950/30 rounded-xl flex flex-col items-center justify-center p-4 text-center border border-emerald-200 dark:border-emerald-800">
+                                <i class="fa-solid fa-nfc-symbol text-2xl text-emerald-500 mb-1"></i>
+                                <h4 class="font-extrabold text-base text-slate-900 dark:text-white">번역기 필요 없어!<br>'NFC 원터치 정보'</h4>
+                                <p class="text-[11px] text-emerald-700 dark:text-emerald-300 mt-2">1초 매대 Tap / 15초 레시피</p>
+                            </div>
+                            <h5 class="font-bold text-sm text-slate-900 dark:text-white">NFC 원터치 다국어 정보 서비스</h5>
+                            <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+                                매대 태그로 맵기 단계, 성분, 비건/할랄 여부 및 15초 숏폼 레시피를 모국어로 1초 만에 확인.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-slate-50 dark:bg-slate-700/50 border-t border-slate-100 dark:border-slate-700 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 dark:text-slate-400">포맷: Carousel Slide</span>
+                        <button class="open-modal-btn text-amber-600 dark:text-amber-400 font-bold hover:underline" data-card="5">상세보기</button>
+                    </div>
+                </div>
+
+                <!-- CARD 06 -->
+                <div class="card-item bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-md border border-slate-200 dark:border-slate-700 flex flex-col justify-between hover:shadow-xl transition-all">
+                    <div>
+                        <div class="bg-amber-500 text-slate-900 p-3 font-bold text-xs flex justify-between items-center">
+                            <span>(6) 위치 안내</span>
+                            <span class="bg-slate-900 text-white px-2 py-0.5 rounded text-[10px]">Card 06</span>
+                        </div>
+                        <div class="p-5 space-y-3">
+                            <div class="w-full h-44 bg-purple-50 dark:bg-purple-950/30 rounded-xl flex flex-col items-center justify-center p-4 text-center border border-purple-200 dark:border-purple-800">
+                                <i class="fa-solid fa-location-dot text-2xl text-purple-500 mb-1"></i>
+                                <h4 class="font-extrabold text-base text-slate-900 dark:text-white">어디서 만날 수 있냐고?<br>이마트 신촌점 B3!</h4>
+                                <p class="text-[11px] text-purple-700 dark:text-purple-300 mt-2">신촌역 2호선 직결 & Airport Delivery</p>
+                            </div>
+                            <h5 class="font-bold text-sm text-slate-900 dark:text-white">이마트 신촌점 B3 직결 안내</h5>
+                            <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+                                지하철 2호선 직결 접근성과 공항 배송(Airport Delivery) 서비스 연계를 최종 CTA로 안내.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-slate-50 dark:bg-slate-700/50 border-t border-slate-100 dark:border-slate-700 flex justify-between items-center text-xs">
+                        <span class="text-slate-500 dark:text-slate-400">포맷: Call-to-Action Slide</span>
+                        <button class="open-modal-btn text-amber-600 dark:text-amber-400 font-bold hover:underline" data-card="6">상세보기</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SPACE EXPERIENCE & SMART SHOPPING CONCEPT SECTION -->
+    <section id="space" class="py-16 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-xs font-bold uppercase tracking-widest text-amber-500">Space Experience Concept</span>
+                    <h2 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white leading-tight">
+                        공간 경험 컨셉:<br>
+                        현지인 추천 랭킹 & AI 스마트 픽업
+                    </h2>
+                    <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
+                        이마트 신촌점 B3 K-Palette Zone은 순수 매대 배치를 넘어, AI 개인화 추천과 체험형 매대, 오프라인 원스톱 Tax Refund 환급 서비스까지 통합하여 글로벌 고객에게 차원이 다른 매장 경험을 선사합니다.
+                    </p>
+
+                    <div class="space-y-3">
+                        <div class="flex items-start space-x-3 p-3 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <div class="w-8 h-8 rounded-lg bg-amber-500 text-slate-900 font-bold flex items-center justify-center shrink-0">
+                                01
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-slate-900 dark:text-white">현지인 추천 랭킹 TOP 20 & 체험존</h4>
+                                <p class="text-xs text-slate-500 dark:text-slate-400">한식 소스 체험대(불닭/고추장/만능장) 및 K-디저트(망고&패션프루트) 전용 매대 구성.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-3 p-3 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <div class="w-8 h-8 rounded-lg bg-amber-500 text-slate-900 font-bold flex items-center justify-center shrink-0">
+                                02
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-slate-900 dark:text-white">AI 기반 개인화 추천 & 다국어 QR</h4>
+                                <p class="text-xs text-slate-500 dark:text-slate-400">개인 취향(매운맛 선호도, 비건, 할랄) 스캔 후 맞춤형 상품 정보 및 즉시 추천 제공.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-3 p-3 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <div class="w-8 h-8 rounded-lg bg-amber-500 text-slate-900 font-bold flex items-center justify-center shrink-0">
+                                03
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-sm text-slate-900 dark:text-white">외국인 즉시 환급(Tax Refund) & 공항 배송</h4>
+                                <p class="text-xs text-slate-500 dark:text-slate-400">계산대 즉시 세금 감면 및 공항 철도 직결 연계 무거운 짐 걱정 없는 스마트 픽업.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visual Mockup Graphic -->
+                <div class="lg:col-span-6 bg-slate-100 dark:bg-slate-800 rounded-3xl p-6 border border-slate-200 dark:border-slate-700 relative overflow-hidden">
+                    <div class="aspect-video bg-gradient-to-tr from-amber-500/20 via-slate-800 to-slate-900 rounded-2xl p-6 text-white flex flex-col justify-between relative">
+                        <div class="flex justify-between items-center">
+                            <span class="bg-emart-yellow text-slate-900 text-xs font-black px-2.5 py-1 rounded">K-디스커버리 & 스마트 쇼핑</span>
+                            <span class="text-xs text-amber-300 font-mono"><i class="fa-solid fa-qrcode mr-1"></i>QR/NFC Active</span>
+                        </div>
+
+                        <div class="my-auto space-y-2 text-center py-4">
+                            <div class="inline-flex p-3 rounded-full bg-white/10 backdrop-blur border border-white/20 text-3xl text-amber-400 mb-1">
+                                <i class="fa-solid fa-vr-cardboard"></i>
+                            </div>
+                            <h3 class="text-lg font-black">실시간 AR 스마트 매대 안내</h3>
+                            <p class="text-xs text-slate-300">카메라를 비추면 상품 정보가 모국어로 자동 중첩 레이어 표시됩니다.</p>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2 text-center">
+                            <div class="bg-black/50 backdrop-blur p-2 rounded-lg border border-white/10">
+                                <span class="block text-[10px] text-slate-400">인프라</span>
+                                <span class="text-xs font-bold text-amber-300">AR 길찾기 시스템</span>
+                            </div>
+                            <div class="bg-black/50 backdrop-blur p-2 rounded-lg border border-white/10">
+                                <span class="block text-[10px] text-slate-400">물류 연계</span>
+                                <span class="text-xs font-bold text-amber-300">스마트 픽업 & 공항 배송</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TARGET AUDIENCE & 5-CHANNEL MIX MATRIX -->
+    <section id="channels" class="py-16 bg-slate-50 dark:bg-slate-900/50 border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold uppercase tracking-widest text-amber-500">Audience & Channel Strategy</span>
+                <h2 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white mt-1">타깃 세분화 및 5대 소셜 미디어 플랫폼 믹스</h2>
+                <p class="text-slate-600 dark:text-slate-400 text-xs sm:text-sm mt-2">글로벌 관광객 특성에 따른 특화 채널 전략으로 바이럴과 방문 전환율을 극대화합니다.</p>
+            </div>
+
+            <!-- 5 Channels Tab Navigation -->
+            <div class="grid grid-cols-2 sm:grid-cols-5 gap-2 mb-8">
+                <button class="channel-tab-btn active bg-emart-yellow text-slate-900 font-bold p-3 rounded-xl text-xs flex flex-col items-center justify-center space-y-1 transition-all" data-channel="tiktok">
+                    <i class="fa-brands fa-tiktok text-lg"></i>
+                    <span>TikTok</span>
+                </button>
+                <button class="channel-tab-btn bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-amber-100 font-bold p-3 rounded-xl text-xs flex flex-col items-center justify-center space-y-1 transition-all" data-channel="instagram">
+                    <i class="fa-brands fa-instagram text-lg text-pink-500"></i>
+                    <span>인스타그램</span>
+                </button>
+                <button class="channel-tab-btn bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-amber-100 font-bold p-3 rounded-xl text-xs flex flex-col items-center justify-center space-y-1 transition-all" data-channel="xiaohongshu">
+                    <i class="fa-solid fa-book-bookmark text-lg text-red-500"></i>
+                    <span>샤오홍슈 (小红书)</span>
+                </button>
+                <button class="channel-tab-btn bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-amber-100 font-bold p-3 rounded-xl text-xs flex flex-col items-center justify-center space-y-1 transition-all" data-channel="shorts">
+                    <i class="fa-brands fa-youtube text-lg text-red-600"></i>
+                    <span>유튜브 Shorts</span>
+                </button>
+                <button class="channel-tab-btn bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-amber-100 font-bold p-3 rounded-xl text-xs flex flex-col items-center justify-center space-y-1 transition-all col-span-2 sm:col-span-1" data-channel="kakao">
+                    <i class="fa-solid fa-comment text-lg text-amber-500"></i>
+                    <span>카카오채널</span>
+                </button>
+            </div>
+
+            <!-- Tab Content Panel -->
+            <div id="channelContentPanel" class="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm">
+                <!-- Content generated dynamically via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- STEP-BY-STEP EXECUTION CHECKLIST SECTION -->
+    <section id="checklist" class="py-16 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-8">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-amber-500">Execution Roadmap</span>
+                    <h2 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white mt-1">단계별 실행 체크리스트</h2>
+                    <p class="text-slate-600 dark:text-slate-400 text-xs sm:text-sm mt-1">오픈 전, 당일, 오픈 후까지의 빈틈없는 통합 실행 로드맵입니다.</p>
+                </div>
+
+                <!-- Progress Tracker -->
+                <div class="mt-4 md:mt-0 bg-slate-100 dark:bg-slate-800 p-3 rounded-xl border border-slate-200 dark:border-slate-700 min-w-[240px]">
+                    <div class="flex justify-between items-center text-xs font-bold mb-1">
+                        <span>전체 진행률</span>
+                        <span id="checklistPercent" class="text-amber-500">0%</span>
+                    </div>
+                    <div class="w-full bg-slate-200 dark:bg-slate-700 h-2 rounded-full overflow-hidden">
+                        <div id="checklistProgressBar" class="bg-amber-500 h-full w-0 transition-all duration-300"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Checklist Phase Tabs -->
+            <div class="flex space-x-3 border-b border-slate-200 dark:border-slate-700 mb-6">
+                <button class="phase-tab active border-b-2 border-amber-500 text-amber-600 dark:text-amber-400 font-bold pb-3 text-sm" data-phase="pre">
+                    PHASE 1: 오픈 전 (Pre-Launch D-14~D-1)
+                </button>
+                <button class="phase-tab border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 font-bold pb-3 text-sm" data-phase="dday">
+                    PHASE 2: 오픈 당일 (D-Day Timeline)
+                </button>
+                <button class="phase-tab border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 font-bold pb-3 text-sm" data-phase="post">
+                    PHASE 3: 오픈 후 (Post-Launch D+1~D+30)
+                </button>
+            </div>
+
+            <!-- Phase Items Container -->
+            <div id="phaseItemsContainer" class="space-y-3">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- KPI TARGETS, RISK MANAGEMENT & TEAM R&R SECTION -->
+    <section id="kpi" class="py-16 bg-slate-50 dark:bg-slate-900/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+            
+            <!-- KPI METRICS -->
+            <div>
+                <div class="text-center max-w-2xl mx-auto mb-10">
+                    <span class="text-xs font-bold uppercase tracking-widest text-amber-500">Target Metrics</span>
+                    <h2 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white mt-1">캠페인 KPI 정량 목표 지표</h2>
+                </div>
+
+                <div class="grid grid-cols-2 lg:grid-cols-6 gap-4">
+                    <div class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 text-center shadow-sm">
+                        <span class="text-[10px] font-bold text-slate-400 block mb-1">오픈 전 (PRE)</span>
+                        <div class="text-xl sm:text-2xl font-black text-amber-500">500건+</div>
+                        <span class="text-[11px] text-slate-600 dark:text-slate-300 font-medium">카드뉴스 저장(Save)수</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 text-center shadow-sm">
+                        <span class="text-[10px] font-bold text-slate-400 block mb-1">오픈 전 (PRE)</span>
+                        <div class="text-xl sm:text-2xl font-black text-amber-500">10,000회+</div>
+                        <span class="text-[11px] text-slate-600 dark:text-slate-300 font-medium">TikTok 티저 조회수</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 text-center shadow-sm">
+                        <span class="text-[10px] font-bold text-slate-400 block mb-1">오픈 당일 (D-DAY)</span>
+                        <div class="text-xl sm:text-2xl font-black text-amber-500">20,000명+</div>
+                        <span class="text-[11px] text-slate-600 dark:text-slate-300 font-medium">인스타그램 총 도달</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 text-center shadow-sm">
+                        <span class="text-[10px] font-bold text-slate-400 block mb-1">오픈 당일 (D-DAY)</span>
+                        <div class="text-xl sm:text-2xl font-black text-amber-500">5,000회+</div>
+                        <span class="text-[11px] text-slate-600 dark:text-slate-300 font-medium">샤오홍슈 총 노출수</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 text-center shadow-sm">
+                        <span class="text-[10px] font-bold text-slate-400 block mb-1">오픈 후 (D+7)</span>
+                        <div class="text-xl sm:text-2xl font-black text-amber-500">50건+</div>
+                        <span class="text-[11px] text-slate-600 dark:text-slate-300 font-medium">고객 자발 UGC 생성</span>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 text-center shadow-sm">
+                        <span class="text-[10px] font-bold text-slate-400 block mb-1">오픈 후 (D+30)</span>
+                        <div class="text-xl sm:text-2xl font-black text-amber-500">200건+</div>
+                        <span class="text-[11px] text-slate-600 dark:text-slate-300 font-medium">해시태그 누적 버즈량</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RISK MANAGEMENT TABLE -->
+            <div>
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4 flex items-center space-x-2">
+                    <i class="fa-solid fa-shield-halved text-red-500"></i>
+                    <span>주요 리스크 식별 및 즉각 대응 매뉴얼</span>
+                </h3>
+
+                <div class="overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-sm">
+                    <table class="w-full text-left text-xs sm:text-sm">
+                        <thead class="bg-slate-100 dark:bg-slate-700/50 text-slate-700 dark:text-slate-300 border-b border-slate-200 dark:border-slate-700">
+                            <tr>
+                                <th class="p-3.5 font-bold">리스크 요인</th>
+                                <th class="p-3.5 font-bold w-24">위험도</th>
+                                <th class="p-3.5 font-bold">사전 예방 및 비상 대응 대책</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-600 dark:text-slate-300">
+                            <tr>
+                                <td class="p-3.5 font-semibold text-slate-900 dark:text-white">NFC/AR 디지털 오류</td>
+                                <td class="p-3.5"><span class="bg-red-100 text-red-600 dark:bg-red-900/40 dark:text-red-300 px-2 py-0.5 rounded font-bold text-xs">HIGH</span></td>
+                                <td class="p-3.5">현장 실물 QR코드 보조 부착 및 오프라인 다국어 리플릿 1,000부 현장 즉시 비치</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3.5 font-semibold text-slate-900 dark:text-white">KOL 가이드라인 이탈</td>
+                                <td class="p-3.5"><span class="bg-red-100 text-red-600 dark:bg-red-900/40 dark:text-red-300 px-2 py-0.5 rounded font-bold text-xs">HIGH</span></td>
+                                <td class="p-3.5">현장 전담 코디네이터 밀착 동행 및 필수 소구점(위치/NFC) 게시 전 사전 검수 100% 진행</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3.5 font-semibold text-slate-900 dark:text-white">샤오홍슈 중국어 번역 오역</td>
+                                <td class="p-3.5"><span class="bg-red-100 text-red-600 dark:bg-red-900/40 dark:text-red-300 px-2 py-0.5 rounded font-bold text-xs">HIGH</span></td>
+                                <td class="p-3.5">중화권 전문 마케터 2차 교차 감수 진행 완료 후 배포 승인 원칙 수립</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3.5 font-semibold text-slate-900 dark:text-white">오픈 당일 매장 혼잡도 과중</td>
+                                <td class="p-3.5"><span class="bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300 px-2 py-0.5 rounded font-bold text-xs">MID</span></td>
+                                <td class="p-3.5">촬영 전용 타임라인 분리(14~16시) 및 일반 고객 동선 분리 안내 벨트 설치</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- TEAM R&R GRID -->
+            <div>
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4 flex items-center space-x-2">
+                    <i class="fa-solid fa-users text-amber-500"></i>
+                    <span>프로젝트 추진 담당자별 R&R (역할 분장)</span>
+                </h3>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+                    <div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+                        <div class="text-amber-500 font-extrabold text-xs mb-1">총괄</div>
+                        <h4 class="font-bold text-sm text-slate-900 dark:text-white">총괄 디렉터</h4>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 mt-2">캠페인 총괄 방향성 승인, 부서 간 조율 및 대외 보도자료 배포 승인</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+                        <div class="text-amber-500 font-extrabold text-xs mb-1">콘텐츠</div>
+                        <h4 class="font-bold text-sm text-slate-900 dark:text-white">SNS 콘텐츠 마케터</h4>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 mt-2">카드뉴스(1~6) 발행 스케줄 관리, 숏폼 영상 편집 및 전 채널 예약 발행</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+                        <div class="text-amber-500 font-extrabold text-xs mb-1">인플루언서</div>
+                        <h4 class="font-bold text-sm text-slate-900 dark:text-white">글로벌 인플루언서 MD</h4>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 mt-2">해외 KOL 섭외 계약, 현장 팸투어 안내 및 제작물 품질/일정 트래킹</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+                        <div class="text-amber-500 font-extrabold text-xs mb-1">현장 운영</div>
+                        <h4 class="font-bold text-sm text-slate-900 dark:text-white">현장 운영 코디네이터</h4>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 mt-2">신촌점 B3 안내선/NFC 인프라 점검, 사은품 이벤트 부스 운영 총괄</p>
+                    </div>
+
+                    <div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+                        <div class="text-amber-500 font-extrabold text-xs mb-1">데이터 분석</div>
+                        <h4 class="font-bold text-sm text-slate-900 dark:text-white">데이터 분석 담당</h4>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 mt-2">채널별 반응률, 유입 경로 트래킹 및 D+7, D+30 KPI 달성도 분석 보고</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-slate-400 py-8 border-t border-slate-800 text-xs text-center">
+        <div class="max-w-7xl mx-auto px-4 space-y-2">
+            <p class="font-bold text-slate-300">e-mart Sinchon × K-Palette Zone Launch Campaign Promotion Plan</p>
+            <p>작성일자: 2026년 9월 22일 | 서울특별시 마포구 신촌로 B3 K-Palette Zone</p>
+            <p class="text-slate-600 text-[11px]">본 웹페이지는 이마트 신촌점 K-Palette Zone 홍보 기획서를 바탕으로 제작된 대화형 인터랙티브 보고서입니다.</p>
+        </div>
+    </footer>
+
+    <!-- CARD NEWS MODAL POPUP -->
+    <div id="cardModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="bg-white dark:bg-slate-800 rounded-3xl max-w-lg w-full p-6 space-y-4 relative border border-slate-200 dark:border-slate-700 shadow-2xl">
+            <button id="closeModalBtn" class="absolute top-4 right-4 text-slate-400 hover:text-slate-800 dark:hover:text-white p-2 text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <span id="modalCategory" class="inline-block px-2.5 py-1 bg-amber-500 text-slate-900 rounded font-extrabold text-xs">
+                Card Title
+            </span>
+            <h3 id="modalTitle" class="text-xl font-bold text-slate-900 dark:text-white"></h3>
+            <div id="modalVisual" class="w-full h-56 rounded-2xl flex flex-col items-center justify-center text-center p-4">
+                <!-- Visual preview -->
+            </div>
+            <p id="modalDesc" class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed"></p>
+            <div class="pt-2 flex justify-end">
+                <button id="modalConfirmBtn" class="px-5 py-2 bg-emart-yellow hover:bg-emart-darkYellow text-slate-900 font-bold rounded-xl text-xs">
+                    확인
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT INTERACTIVE LOGIC -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            // 1. Theme Dark/Light Toggle
+            const themeBtn = document.getElementById('themeToggleBtn');
+            themeBtn.addEventListener('click', function() {
+                document.documentElement.classList.toggle('dark');
+            });
+
+            // 2. 9:16 Shorts Video Simulator Logic
+            const playBtn = document.getElementById('playBtn');
+            const videoElement = document.getElementById('shortsVideo');
+            const simulatedScreen = document.getElementById('videoSimulatedScreen');
+            const pulseCircle = document.getElementById('pulseCircle');
+            let isPlaying = false;
+
+            playBtn.addEventListener('click', function() {
+                isPlaying = !isPlaying;
+                if (isPlaying) {
+                    playBtn.innerHTML = '<i class="fa-solid fa-pause"></i>';
+                    pulseCircle.classList.remove('animate-ping');
+                    // Attempt real HTML5 video play if available
+                    if (videoElement.src) {
+                        videoElement.classList.remove('hidden');
+                        videoElement.play().catch(e => {
+                            console.log("HTML5 Video playback fallback:", e);
+                        });
+                    }
+                } else {
+                    playBtn.innerHTML = '<i class="fa-solid fa-play ml-1"></i>';
+                    pulseCircle.classList.add('animate-ping');
+                    if (videoElement) {
+                        videoElement.pause();
+                    }
+                }
+            });
+
+            // Like Counter Animation
+            const likeBtn = document.getElementById('likeBtn');
+            const likeCountEl = document.getElementById('likeCount');
+            let liked = false;
+            let count = 3800;
+
+            likeBtn.addEventListener('click', function() {
+                liked = !liked;
+                if(liked) {
+                    count++;
+                    likeBtn.querySelector('i').classList.add('text-red-600', 'scale-125');
+                } else {
+                    count--;
+                    likeBtn.querySelector('i').classList.remove('text-red-600', 'scale-125');
+                }
+                likeCountEl.textContent = (count / 1000).toFixed(1) + 'K';
+            });
+
+            // Multilingual Subtitle Switcher
+            const langBtns = document.querySelectorAll('.lang-btn');
+            const subtitleBox = document.getElementById('subtitleBox');
+
+            const subtitles = {
+                kor: '🇰🇷 "한국인 찐추천 SNS 핫템 Top 100!"',
+                eng: '🇺🇸 "Korean Locals\' Top 100 Recommended Items!"',
+                chn: '🇨🇳 "韩国本地人真正推荐 SNS 爆款 Top 100!"',
+                jpn: '🇯🇵 "韓国人が本気でおすすめするSNS話題のアイテム Top 100!"'
+            };
+
+            langBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    langBtns.forEach(b => {
+                        b.classList.remove('bg-amber-500', 'text-slate-900');
+                        b.classList.add('bg-slate-700', 'text-slate-300');
+                    });
+                    this.classList.remove('bg-slate-700', 'text-slate-300');
+                    this.classList.add('bg-amber-500', 'text-slate-900');
+
+                    const lang = this.getAttribute('data-lang');
+                    subtitleBox.textContent = subtitles[lang];
+                });
+            });
+
+            // 3. 5-Channel Strategy Matrix Tabs
+            const channelBtns = document.querySelectorAll('.channel-tab-btn');
+            const channelPanel = document.getElementById('channelContentPanel');
+
+            const channelData = {
+                tiktok: {
+                    title: "TikTok - 바이럴 확산 주력",
+                    format: "15~30초 현장 반응 숏폼 영상 (mp4 파일 활용)",
+                    hook: "첫 3초 '한국 마트 멘붕 해결법' 직관적 자막 삽입",
+                    ops: "영문 자막 기본 탑재 및 주 2~3회 정기 업로드",
+                    tags: "#KPaletteZone #KoreaSupermarket #EmartSinchon #SeoulTrip",
+                    icon: "fa-brands fa-tiktok text-slate-900 dark:text-white"
+                },
+                instagram: {
+                    title: "인스타그램 - 브랜딩 & 인게이지먼트",
+                    format: "공식 6장 카드뉴스 캐러셀 + Reels 현장 클립",
+                    hook: "게시물 '저장(Save)' 및 친구 태그 이벤트 유도",
+                    ops: "여행 인플루언서 릴스 협업 및 스토리 아카이빙",
+                    tags: "#이마트신촌 #KoreaTravelTips #KPaletteZone",
+                    icon: "fa-brands fa-instagram text-pink-500"
+                },
+                xiaohongshu: {
+                    title: "샤오홍슈 (小红书) - 중화권 핵심 타깃",
+                    format: "카드뉴스 기반 상세 쇼핑 가이드 (후기형 톤앤매너)",
+                    hook: "꿀조합 라면 세트 가격 및 즉시 세금 환급(Tax Refund) 편의성 소구",
+                    ops: "현지 네이티브 번역 검수 완료된 중국어 본문 필수 배포",
+                    tags: "#首尔购物 #韩国超市必买 #新村emart",
+                    icon: "fa-solid fa-book-bookmark text-red-500"
+                },
+                shorts: {
+                    title: "유튜브 Shorts - 글로벌 검색 유입",
+                    format: "AR 길찾기 & K-라면 꿀조합 60초 집중 시연 영상",
+                    hook: "SEO 타깃팅: 'Seoul Supermarket AR navigation guide'",
+                    ops: "해외 시청자 대상 설명란 구글맵(Google Maps) 신촌점 위치 고정",
+                    tags: "#SeoulTrip #EmartSinchon #KoreaMart",
+                    icon: "fa-brands fa-youtube text-red-600"
+                },
+                kakao: {
+                    title: "카카오채널 (이마트 공식) - 국내 유입 & 안내",
+                    format: "푸시 메시지: D-3 티저 / D-Day 오픈 안내 / 주말 리마인드",
+                    hook: "원클릭 네비게이션: 네이버 지도/카카오맵 B3 직결 링크 탑재",
+                    ops: "방문 고객 대상 즉시 사용 가능한 현장 할인 쿠폰 연동",
+                    tags: "#이마트신촌점 #카카오톡채널혜택",
+                    icon: "fa-solid fa-comment text-amber-500"
+                }
+            };
+
+            function renderChannelContent(key) {
+                const data = channelData[key];
+                channelPanel.innerHTML = `
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-3 border-b border-slate-200 dark:border-slate-700 pb-3">
+                            <i class="${data.icon} text-2xl"></i>
+                            <h3 class="font-extrabold text-lg text-slate-900 dark:text-white">${data.title}</h3>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+                            <div class="bg-slate-50 dark:bg-slate-700/50 p-3 rounded-xl border border-slate-200 dark:border-slate-600">
+                                <span class="font-bold text-amber-600 dark:text-amber-400 block mb-1">📌 콘텐츠 포맷</span>
+                                <p class="text-slate-700 dark:text-slate-300">${data.format}</p>
+                            </div>
+                            <div class="bg-slate-50 dark:bg-slate-700/50 p-3 rounded-xl border border-slate-200 dark:border-slate-600">
+                                <span class="font-bold text-amber-600 dark:text-amber-400 block mb-1">🔥 핵심 소구 훅</span>
+                                <p class="text-slate-700 dark:text-slate-300">${data.hook}</p>
+                            </div>
+                            <div class="bg-slate-50 dark:bg-slate-700/50 p-3 rounded-xl border border-slate-200 dark:border-slate-600">
+                                <span class="font-bold text-amber-600 dark:text-amber-400 block mb-1">⚙️ 운영 및 배포 전략</span>
+                                <p class="text-slate-700 dark:text-slate-300">${data.ops}</p>
+                            </div>
+                        </div>
+                        <div class="bg-amber-50 dark:bg-amber-950/30 p-3 rounded-xl text-xs font-mono text-amber-800 dark:text-amber-300">
+                            <strong>해시태그:</strong> ${data.tags}
+                        </div>
+                    </div>
+                `;
+            }
+
+            channelBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    channelBtns.forEach(b => {
+                        b.classList.remove('bg-emart-yellow', 'text-slate-900');
+                        b.classList.add('bg-white', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+                    });
+                    this.classList.remove('bg-white', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+                    this.classList.add('bg-emart-yellow', 'text-slate-900');
+
+                    const ch = this.getAttribute('data-channel');
+                    renderChannelContent(ch);
+                });
+            });
+
+            // Initial channel render
+            renderChannelContent('tiktok');
+
+            // 4. Interactive Step-by-Step Execution Checklist
+            const phaseTabs = document.querySelectorAll('.phase-tab');
+            const phaseContainer = document.getElementById('phaseItemsContainer');
+
+            const phaseData = {
+                pre: [
+                    { id: 'p1', date: 'D-14~D-8', text: '카드뉴스 6장 최종 감수 (영문 표기, 브랜드 규격, 할인/혜택 표기 무결성 검증)' },
+                    { id: 'p2', date: 'D-14~D-8', text: '홍보 영상(mp4) 채널별 최적 규격 편집 (TikTok 9:16 세로형, 피드 1:1, 유튜브 쇼츠)' },
+                    { id: 'p3', date: 'D-14~D-8', text: '다국어 자막 스크립트 번역 감수 완료 (영어, 중국어 간체/번체, 일본어)' },
+                    { id: 'p4', date: 'D-14~D-8', text: '글로벌 여행 인플루언서(KOL) 5인 섭외 및 촬영 가이드라인 브리프 전달' },
+                    { id: 'p5', date: 'D-7', text: 'TikTok 티저 영상 공개: "한국 마트 길 잃어버리는 사람 주목!" (3초 훅 적용)' },
+                    { id: 'p6', date: 'D-7~D-2', text: '인스타그램 카드뉴스 (1)~(5) 순차 업로드 및 카카오 공식채널 티징 메시지 발송' },
+                    { id: 'p7', date: 'D-1', text: '신촌역 2호선 연결통로~ B3 매장 바닥 노란색 유도선 시공 완료 검수' },
+                    { id: 'p8', date: 'D-1', text: '매대별 NFC 태그 전수 스캔 테스트 & 웹 AR 길찾기 트래픽 부하 테스트 완료' }
+                ],
+                dday: [
+                    { id: 'd1', time: '09:00', text: '인스타그램 카드뉴스 (6) 및 오프닝 릴스 게시 ("드디어 오늘 오픈!")' },
+                    { id: 'd2', time: '09:30', text: '카카오채널 오픈 공식 메시지 발송 (방문 고객 대상 사은품 쿠폰 연계)' },
+                    { id: 'd3', time: '10:00', text: '샤오홍슈 오픈 당일 현장 라이브 피드 업로드 (B3 매장 입구 안내)' },
+                    { id: 'd4', time: '10:30', text: '현장 NFC 태그 및 AR 시스템 실제 고객 최초 유입 시 오작동 여부 모니터링' },
+                    { id: 'd5', time: '12:00~18:00', text: '초청 글로벌 인플루언서 매장 방문 에스코트 및 현장 리얼 반응 클립 수집' },
+                    { id: 'd6', time: '18:30', text: 'TikTok 당일 현장 스케치 숏폼 업로드 ("오늘 오픈한 이마트 신촌 현상황")' },
+                    { id: 'd7', time: '22:00', text: 'D-Day 당일 지표 마감 집계 (도달수, 저장수, 해시태그 생성수 취합)' }
+                ],
+                post: [
+                    { id: 'post1', date: 'D+1~D+7', text: '해시태그 #KPaletteZone, #이마트신촌 모니터링 및 우수 UGC 리그램' },
+                    { id: 'post2', date: 'D+1~D+7', text: '인플루언서 릴스 성과 분석 및 고효율 영상 대상 유료 부스팅(Spark Ads/Meta Ads) 집행' },
+                    { id: 'post3', date: 'D+7', text: '오픈 1주일 차 1차 종합 성과 리포트 발행 (도달, 매장 방문 전환율 분석)' },
+                    { id: 'post4', date: 'D+8~D+30', text: '격주 단위 "실시간 SNS 인기 Top 10" 카드뉴스 시리즈 정기 발행' },
+                    { id: 'post5', date: 'D+8~D+30', text: '고객 요청 기반 "K-스낵/디저트 이색 꿀조합" 숏폼 튜토리얼 릴리즈 (주 2편)' },
+                    { id: 'post6', date: 'D+30', text: '캠페인 월간 최종 마감 리포트 작성 및 시즌 2 큐레이션 기획 회의 소집' }
+                ]
+            };
+
+            let checkedState = {};
+
+            function renderPhase(phaseKey) {
+                const items = phaseData[phaseKey];
+                phaseContainer.innerHTML = items.map(item => `
+                    <label class="flex items-start space-x-3 p-3 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 cursor-pointer hover:bg-amber-50 dark:hover:bg-slate-700/50 transition-all">
+                        <input type="checkbox" data-id="${item.id}" ${checkedState[item.id] ? 'checked' : ''} class="chk-item mt-1 rounded text-amber-500 focus:ring-amber-400 w-4 h-4">
+                        <div class="text-xs">
+                            <span class="font-bold text-amber-600 dark:text-amber-400 mr-2">[${item.date || item.time}]</span>
+                            <span class="text-slate-800 dark:text-slate-200 font-medium">${item.text}</span>
+                        </div>
+                    </label>
+                `).join('');
+
+                // Add event listeners to checkboxes
+                document.querySelectorAll('.chk-item').forEach(chk => {
+                    chk.addEventListener('change', function() {
+                        const id = this.getAttribute('data-id');
+                        checkedState[id] = this.checked;
+                        updateProgress();
+                    });
+                });
+            }
+
+            function updateProgress() {
+                const total = Object.keys(phaseData).reduce((acc, k) => acc + phaseData[k].length, 0);
+                const checkedCount = Object.values(checkedState).filter(Boolean).length;
+                const percent = Math.round((checkedCount / total) * 100);
+
+                document.getElementById('checklistPercent').textContent = percent + '%';
+                document.getElementById('checklistProgressBar').style.width = percent + '%';
+            }
+
+            phaseTabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    phaseTabs.forEach(t => {
+                        t.classList.remove('border-amber-500', 'text-amber-600', 'dark:text-amber-400');
+                        t.classList.add('border-transparent', 'text-slate-500');
+                    });
+                    this.classList.remove('border-transparent', 'text-slate-500');
+                    this.classList.add('border-amber-500', 'text-amber-600', 'dark:text-amber-400');
+
+                    const ph = this.getAttribute('data-phase');
+                    renderPhase(ph);
+                });
+            });
+
+            // Initial render for Phase 1
+            renderPhase('pre');
+
+            // 5. Card News Modal Detail Popup
+            const cardModal = document.getElementById('cardModal');
+            const closeModalBtn = document.getElementById('closeModalBtn');
+            const modalConfirmBtn = document.getElementById('modalConfirmBtn');
+            const modalTitle = document.getElementById('modalTitle');
+            const modalCategory = document.getElementById('modalCategory');
+            const modalDesc = document.getElementById('modalDesc');
+            const modalVisual = document.getElementById('modalVisual');
+
+            const modalDetails = {
+                1: { title: "한국 여행 와서 뭐 살지 고민돼?", cat: "Card 01 - 공감 훅", desc: "외국인 관광객이 한국 마트에 들어섰을 때 겪는 첫번째 질문을 상기시켜 브랜드와 솔루션에 집중시킵니다.", bg: "bg-amber-500 text-slate-900" },
+                2: { title: "한국 마트만 오면 멘붕 오는 사람?🙋‍♀️", cat: "Card 02 - 문제 제시", desc: "길 잃음, 다국어 설명 부족, 진짜 현지인 추천 아이템 부재 등 3대 핵심 페인포인트를 시각적으로 공감시킵니다.", bg: "bg-red-500 text-white" },
+                3: { title: "직관적 바닥 안내선 & AR 길찾기", cat: "Card 03 - 솔루션 1", desc: "이마트24 노란 유도선과 스마트폰 카메라인 웹 AR 내비게이션으로 앱 설치 없이 목적지까지 직행하도록 안내합니다.", bg: "bg-blue-600 text-white" },
+                4: { title: "'한국인 찐 추천!' SNS 핫템 & 꿀조합", cat: "Card 04 - 솔루션 2", desc: "틱톡 및 샤오홍슈 데이터 기반 Top 100 인기 핫템과 불닭+짜파게티 꿀조합 패키지를 소개해 실패 없는 쇼핑을 선사합니다.", bg: "bg-amber-600 text-white" },
+                5: { title: "번역기 필요 없어! 'NFC 원터치 정보'", cat: "Card 05 - 솔루션 3", desc: "매대에 스마트폰을 태그하기만 하면 1초 만에 맵기 단계, 할랄/비건 정보 및 15초 조리 숏폼을 모국어로 안내합니다.", bg: "bg-emerald-600 text-white" },
+                6: { title: "어디서 만날 수 있냐고? 이마트 신촌점 B3!", cat: "Card 06 - 위치 안내", desc: "지하철 2호선 신촌역 B3 직결 경로와 공항 배송(Airport Delivery) 서비스 안내로 최종 매장 방문을 유도합니다.", bg: "bg-purple-600 text-white" }
+            };
+
+            document.querySelectorAll('.open-modal-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const cardNum = this.getAttribute('data-card');
+                    const info = modalDetails[cardNum];
+
+                    modalTitle.textContent = info.title;
+                    modalCategory.textContent = info.cat;
+                    modalDesc.textContent = info.desc;
+                    modalVisual.className = `w-full h-48 rounded-2xl flex flex-col items-center justify-center text-center p-4 ${info.bg}`;
+                    modalVisual.innerHTML = `<h4 class="text-xl font-black">${info.title}</h4>`;
+
+                    cardModal.classList.remove('hidden');
+                });
+            });
+
+            function closeModal() {
+                cardModal.classList.add('hidden');
+            }
+
+            closeModalBtn.addEventListener('click', closeModal);
+            modalConfirmBtn.addEventListener('click', closeModal);
+            cardModal.addEventListener('click', function(e) {
+                if (e.target === cardModal) closeModal();
+            });
+
+        });
+    </script>
+</body>
+</html>
